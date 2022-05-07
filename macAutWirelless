@@ -23,7 +23,7 @@
  }
  :set $newMac [:pick $newMac 0 ([:len $newMac] - 1)];
  /interface wireless set [find name=$iFace] mac-address=$newMac
- :delay 10
+ :delay 30
  :if ([/interface get [/interface find name=$iFace] running]) do={
   :log warning ("MACGEN: $iFace new mac: " . [/interface wireless get [find name=$iFace] mac-address]);
   :set $runMe false;
