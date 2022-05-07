@@ -9,11 +9,6 @@
 
 # interface name
 :local iFace "wlan1";
-:local iFace "erick";
-:local iFace "interfaceRedesSociales";
-:local iFace "tony";
-:local iFace "wifichas";
-
 # ==========================
 
 :local runMe true;
